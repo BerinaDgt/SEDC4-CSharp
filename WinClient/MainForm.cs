@@ -16,5 +16,13 @@ namespace WinClient
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            foreach (var item in Enum.GetValues(typeof(MovieClasses.Gender)))
+            {
+                listBox1.Items.Add(item);
+            }
+        }
     }
 }
