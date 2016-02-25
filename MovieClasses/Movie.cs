@@ -25,7 +25,6 @@ namespace MovieClasses
         {
             Title = title;
             Year = year;
-
         }
     }
 }
